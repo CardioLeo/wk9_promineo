@@ -5,4 +5,31 @@
 
 ---
 
+-videos
+-mentor meetings scheduled?
+-mentorship opportunity?
+-wk9 research
+-career services
+-coding assignment
+-linkedin posts
+-class attendance
+-course feedback survey
+
+
+---
+
+extra:
+-finish week 7 career services
+-update resume / make new ()
+-finish week 6 project
+-finish How to Program course
+-revisit week 5 project...
+-finish SoloLearn React course
+-finish SoloLearn CSS course
+-finish Grasshopper Intro to Interviewing course
+-finish Udemy React course
+-take Udemy CSS course
+-finish Udemy bash course
+-Enki Linux course
+-finish reading react handbook
 
