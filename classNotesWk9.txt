@@ -1,0 +1,131 @@
+# Author: William Z Chadwick
+# Date Created: 09/28/2022
+# Date Modified: 09/28/2022
+# Description: a place for class notes in promineo tech, week 9.
+
+---
+
+can use modules of bootstrap. can't assume userbase has best devices to download complex stuff.
+
+think of what your specific users are likely to use; and take that into account so you don't make a website too heavy, too long to download.
+
+bootstrap
+
+node.js
+
+... etc.
+
+bootstrap uses more packages and libraries? (or was it JSON that uses more?)
+
+Website- NPMjs website, bootstrap etc.
+
+the less files you have to download as it goes on, the better.
+
+---
+
+make sure you upload .gitignore to your bootstrap/json webpage git repos. make sure it ignores the first npm folder installed - the packages.
+
+***nodeModules folder***
+
+you don't want to upload other people's packages to your github repo, because you didn't make those.
+
+so the package-json file, the nodemodules folder, these ought to be ignored by gitignore
+
+---
+
+Jquery interacts with DOM and javascript; less popular than it was; we will get into this in the coming weeks. not a bad idea to cover it, not too hard; takes some time; ***bootstrap 5 doesn't use jquery anymore.***
+
+learn tailwind instead when you have more time later - more popular in more recent years; not necessarily a rush, but will be good to have.
+
+CDN. hm, Content Delibery Network.
+
+npm init -y // -y makes you bypass the questions it asks you
+npm install boostrap[] --save
+npm install --save // I think I copied this line okay.
+
+Bootstrap --> HTML5;
+HTML5 --> Bootstrap;
+
+Bootstrap Grid
+-responsive design
+--rows, columns
+-classes
+--container
+--**--"container"
+--**--"container-fluid"
+--rows
+--columns
+--**--col-sm, col-md, col-lg, col-xl
+--**--based on 12 columns (100%)
+--**---**--by default, equally distributed, can optionally specify "size". i.e., col-sm-3, etc.
+--**---**--size refers to screen size.
+
+[before CSS classic html tables were used for layout, tables are based on rows and columns]
+
+design still uses grids ^^^ columns; usually 12, but not always. interesting.
+
+Colors/ context, can be applied to most components...... didn't get to finish copying.
+
+[bootstrap - lots of files - are you sure you want to use bootstrap?]
+
+.css
+.css.map
+.min.css
+
+here, ".min.css" does not compile, but does "minify" makes smaller, makes variables smaller, gets rid of spaces; smallest file size needed for this project. interesting.
+
+---
+
+getbootstrap.com/
+
+^^ looks like a good website
+
+modal website, moodle(?)
+
+base class and secondary class
+
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+
+'' '' '' danger, warning, light, dark, grey, etc.
+
+flex box behaviors;
+<div class="d-flex p-2"
+
+flex box behavior in CSS;
+
+Stepanski recommends learning how to do that CSS without bootstrap;
+
+bootstrap does things for you that you should be able to do without bootstrap.
+
+---
+
+use bootstrap?
+
+if you're going to use bootstrap, go to the documentation over and over again; just don't be too dependent on it.
+
+colors in bootstrap, huh, $yellow-800 $green-700 $teal-400
+
+next week, away from HTML and CSS;
+7, 8, 9 --- the none programming part of the program.
+
+week 10+ will be a return to javascript. will show how to dynamically change items on a page.
+
+pretty much all static - html, css, and even bootstrap.
+
+javascript can relatively easily change the content of html, etc.
+
+---
+
+ha, haha, we have to attend some events for career services this week. Oh, that sucks. week 9. Not sure that'll work.
+
+"Attend a meetup." Craaaaaaaaap. (it's so hard to escape from what I have to do, sooo much to do)
+
+Frank asked if any of us were behind on projects, if any of us needed to catch up to at least week 7. He said I can message him about the Week 6 program, because I told him in class I hadn't finished it.
+
+how am I going to find a good meetup to attend.
+
+meetups I could attend:
+-Colorado linux?
+-Colorado C++ (Michael's? but it occurs on Thursdays, and that probably won't happen)
+-Colorado... web development and graphic design? it will be too intimidating if it is just GD, so I should look primiarily for wd.
