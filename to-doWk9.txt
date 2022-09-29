@@ -19,11 +19,32 @@
 ---
 
 extra:
--finish week 7 career services
--update resume / make new ()
+-finish week 7 career services /
+-finish week 5 C++ Flash Cards ()
+---print them ()
+---memorize them ()
+
+
+-update resume / make new (/) (in progress)
+---make the text strong, perfect ()
+---layer and soften image ()
+---finalize ()
+---publicize ()
+
+
 -finish week 6 project
+---?
+---?
+---?
+---?
+
+
+---
+
+
+-finish UDemy course on BCP+DRP
+-finish short redhat course
 -finish How to Program course
--revisit week 5 project...
 -finish SoloLearn React course
 -finish SoloLearn CSS course
 -finish Grasshopper Intro to Interviewing course
