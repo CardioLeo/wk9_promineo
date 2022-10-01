@@ -12,7 +12,7 @@
 -career services
 -coding assignment
 -linkedin posts
--class attendance
+-class attendance /
 -course feedback survey
 
 
@@ -37,9 +37,12 @@ extra:
 --update website more generally
 
 
--finish week 5 C++ Flash Cards ()
+-finish week 5 C++ Flash Cards (/)
 ---print them ()
 ---memorize them ()
+
+
+-make/fill out non-design resume /
 
 
 -update resume / make new (/) (in progress)
