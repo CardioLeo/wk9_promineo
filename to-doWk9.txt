@@ -21,8 +21,10 @@
 extra:
 -finish week 7 career services /
 
+---
+
 -week 8 left over items:
----videos (finish last one?) ()
+---videos (finish last one?) (/)
 ---Wk8 Coding Assignment ()
 ------use only external CSS /
 ------every element must be styled ()
@@ -33,6 +35,15 @@ extra:
 ---research ()
 ----quiz ()
 
+Week 8 Quiz Prompt:
+"Write external CSS to style HTML as directed below.
+Make the entire background blue.
+An id of "text-2" should have red font color.
+Any div with a class of "box" should have 25% margins on all sides, a black, solid 1px border, with curved corners. (NOTE: make sure only div's with the class are targeted)
+All list items (li) should have a white background when they are hovered over.
+Every third row in any table should have a gray background."
+
+---
 
 --update website more generally
 
