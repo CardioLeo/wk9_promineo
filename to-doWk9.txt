@@ -1,6 +1,6 @@
 # Author: William Z Chadwick
 # Date Created: 09/25/2022
-# Date Modified: 09/25/2022
+# Date Modified: 10/05/2022
 # Description: A place for my to-do list for Week 9 of Promineo Tech's Front End Bootcamp
 
 ---
@@ -54,7 +54,8 @@ Every third row in any table should have a gray background."
 
 
 -make/fill out non-design resume /
-
+-review resume ()
+-apply for jobs ()
 
 -update resume / make new (/) (in progress)
 ---make the text strong, perfect ()
