@@ -33,7 +33,7 @@ extra:
 ----------use zoom, screen share ()
 ----------place on dropbox, perhaps youtube... ()
 ---research ()
-----quiz ()
+----quiz (/)
 
 Week 8 Quiz Prompt:
 "Write external CSS to style HTML as directed below.
