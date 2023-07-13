@@ -1,0 +1,84 @@
+# Author: William Z Chadwick
+# Date Created: 07/11/2023
+# Date Modified: 07/13/2023
+# Descrtiption: a place for my research notes on PromineoTech week 9 on Bootstrap
+
+Two prompts; second one first:
+
+"How does the Bootstrap grid system work?"
+
+On the getbootstrap.com/ website, their page titled "Grid," on "Grid System," emphasizes first what I expected was most important - how they use mobile-first design. What this means is that bootstrap is designed to "always already" (as they say in theology) work on mobile devices such as cell phones and tablets. This is very valuable - if I can just get it to work on my personal website!
+
+The grid system uses "containers, rows, and columns," flexbox, "and is fully responsive." I need to look more at flexbox, as it is a layer of abstraction below Bootstrap's grid system and so a thorough knowledge of Bootstrap will entail at least a better knowledge of CSS flexbox. (I read some about flexbox from developer.moxilla.org ("M mdn web docs _") and "https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flexbox-background" which were helpful, but don't answer the question about Bootstrap's grid system.)
+
+So back to the getbootstrap website. It begins by defining containers, rows ("Rows are wrappers for columns"), grid breakpoints, predefined grid classes, and how these align and relate to CSS "padding" and "width" values. It appears that bootstrap inherits automatic column width-spacing from flexbox, its parent-abstraction.
+
+Of note: "Column widths are set in percentages, so they’re always fluid and sized relative to their parent element."
+
+The webpage also details how to change the width of your columns, in case you don't want them to be automatically sized, how to mix and match various grid solutions, and much more. There's really a lot one could go into here.
+
+---
+
+"Name 5 different Bootstrap components and describe how they work."
+
+I looked over the getbootstrap.com/ website to answer this question and found a handful of components that would be particularly interesting to me.
+
+Button Dropdowns
+Navs
+Breadcrumbs
+Typography (an interest of mine)
+Media objects
+
+1.
+Button Dropdowns are like drop-down boxes, but they are exectued or toggled by clicking on a button. This is not technicaly just a drop-down box that looks like a button but is, in html, actually a "<button>" tag. Button Dropdowns work with a .btn-group, which is a class in CSS and HTML. For example, from the website:
+
+<div class="btn-group">
+  <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+    Action
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu">
+    <!-- dropdown menu links -->
+  </ul>
+</div>
+
+These button Dropdowns can of course vary in size and color and can also be made to "drop-up," which could be useful for buttons towards the bottom of a given page.
+
+Also, a bit of JavaScript: "$('.dropdown-toggle').dropdown()"
+
+2.
+Navs here includes "tabs, pills, and lists" (but can you process these lists with the LISt Processing language?). When you call the class, "nav" and "nav-tabs," the result is like tabs of a physical folder in a filing system, or like tabs on a web-browser. When you use "Basic pills" (class="nav nav-pills")the result is more like buttons that remain pressed until you change to another button.
+
+"Disabled state," with grayed out letters, can be triggered by using /* class="disabled" */. You can stack your nav tabs or make them drop-down or make nav-lists. I think the nav-lists, using pills, is of particular interest to me for creating a slightly more savvy design for my website. "Tabs on the bottom" also looks visually interesting to me.
+
+3.
+A set of "Breadcrumbs" is essentially a visual means of describing one's place in a system of folders. The example they give is a nice, "bootstrapped" version of the following:
+Home
+Home / Library
+Home / Library / Data
+
+Rather like one was using the command line and gave the following commands starting in the Home folder: "pwd, cd Library/, pwd,  cd Data/, pwd".
+
+4.
+The "Typography" section is actually fairly uninteresting. It is brief, and I didn't even realize that I was in the next section, "Thumbnails," except that I thought they were trying to say something potentially interesting about typography and thumbnails. It is not clear from the getbootstrap website that there is anything particularly special about bootstrap's typography capabilities as compared to regular CSS or other typographic tools one might use. I wish I had chosen to write about alerts, but I guess the discovery that they don't have much to show off for typography is still real learning.
+
+5.
+I've recently started a podcast with a philosopher, and so the section on "Media object" was of particular interest to me. (But if "Breadcrumbs" was pluralized, why not "Media Object"? I suppose one could say there will likely be more than one crumb but not necessarily more than one object, but... nevermind. Not worth going into here...)
+
+This component is for floating a "media object (images, video, audio)." It can be easily made into lists and nested lists. I wish they had a bit more detail about how this works, but I'm sure that's not hard to come by on other pages. It's nice to know this is a component in Bootstrap.
+
+The example code from the website is here:
+<div class="media">
+  <a class="pull-left" href="#">
+    <img class="media-object" data-src="holder.js/64x64">
+  </a>
+  <div class="media-body">
+    <h4 class="media-heading">Media heading</h4>
+    ...
+ 
+    <!-- Nested media object -->
+    <div class="media">
+      ...
+    </div>
+  </div>
+</div>
